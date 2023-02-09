@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>Ajout d'un Etudiant</h1>
+<div mat-dialog-content>
+    
+
+    <form [formGroup]="etudiantForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Nom Etudiant </mat-label>
+            <input formControlName="EtudiantNom" matInput placeholder="Nom Etudiant">
+        </mat-form-field>
+         <mat-form-field appearance="outline">
+            <mat-label>Prenom Etudiant </mat-label>
+            <input formControlName="EtudiantPrenom" matInput placeholder="Prenom Etudiant">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Option</mat-label>
+            <mat-select formControlName="option" placeholder="Option"> 
+            <mat-option value="GAMIX">GAMIX</mat-option>
+            <mat-option value="SE">SE</mat-option>
+            <mat-option value="SIM">SIM</mat-option>
+            <mat-option value="NIDS">NIDS</mat-option>
+        </mat-select>
+
+      </mat-form-field>
+</form>
+    
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Fermer</button>
+    <button style="margin-left :8px; ;" mat-raised-button color="primary"  (click)="addEtudiant()">{{actionBtn}}</button>
+
+</div>

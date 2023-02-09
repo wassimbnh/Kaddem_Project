@@ -1,0 +1,50 @@
+{
+  "etudiantList": [
+    {
+      "EtudiantNom": "fares",
+      "EtudiantPrenom": "zayen",
+      "option": "SE",
+      "id": 10
+    },
+    {
+      "EtudiantNom": "sami",
+      "EtudiantPrenom": "kk",
+      "option": "GAMIX",
+      "id": 15
+    },
+    {
+      "EtudiantNom": "ahmed",
+      "EtudiantPrenom": "cv",
+      "option": "SIM",
+      "id": 17
+    },
+    {
+      "EtudiantNom": "alalaal",
+      "EtudiantPrenom": "df",
+      "option": "SE",
+      "id": 18
+    },
+    {
+      "EtudiantNom": "wassim",
+      "EtudiantPrenom": "ben hedia",
+      "option": "SE",
+      "id": 19
+    },
+    {
+      "EtudiantNom": "asma",
+      "EtudiantPrenom": "attia",
+      "option": "SE",
+      "id": 20
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
